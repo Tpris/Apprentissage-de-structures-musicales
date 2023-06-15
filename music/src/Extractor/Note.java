@@ -10,11 +10,8 @@ public class Note extends Node {
         super(Integer.toString(degree), duration);
     }
 
-//    @Override
-//    public String toString() {
-//        return "Note{" +
-//                "duration=" + getDuration() +
-//                ", degree=" + getSymbol() +
-//                '}';
-//    }
+        @Override
+    public String toString() {
+        return getSymbol() + "(" + getDuration() +") ";
+    }
 }

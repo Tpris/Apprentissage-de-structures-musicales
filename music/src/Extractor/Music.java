@@ -20,12 +20,22 @@ public class Music {
         return musicName;
     }
 
+    public void addDurationToLastNote(int duration){
+        notes.get(notes.size()-1).addTime(duration);
+    }
+
     public void addNote(Note note){
-        notes.add(note);
+//        if(notes.size()>0) {
+//            Note last = notes.get(notes.size() - 1);
+//            if (last.equals(note)) last.addTime(note.getDuration());
+//            else notes.add(note);
+//        }
+//        else
+            notes.add(note);
     }
 
     @Override
     public String toString() {
-        return "Music : " + musicName;
+        return "Music : " + musicName + "\nNotes : \n" + notes;
     }
 }

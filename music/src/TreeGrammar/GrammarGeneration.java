@@ -1,4 +1,5 @@
 package TreeGrammar;
+import Extractor.Music;
 import Extractor.Note;
 
 import java.util.*;
@@ -11,10 +12,11 @@ public class GrammarGeneration {
 
     private double threshold;
 
-    public GrammarGeneration(ArrayList<Note> corpus, double threshold) {
+    public GrammarGeneration(ArrayList<Music> corpus, double threshold) {
         this.corpus = new ArrayList<>();
-        this.corpus.addAll(corpus);
-        this.length = corpus.size();
+        corpus.forEach(m->this.corpus.addAll(m.getNotes()));
+//        this.corpus.addAll(corpus);
+        this.length = this.corpus.size();
         this.threshold = threshold;
     }
 
@@ -59,6 +61,7 @@ public class GrammarGeneration {
     }
 
     private double J(Node a, Node b){
+//        System.err.println(count(a,b)+" "+count(a)+" "+count(b)+" "+count(a,b)*length/(count(a)*count(b)));
         return Math.log(count(a,b)*length/(count(a)*count(b)));
     }
 
@@ -69,34 +72,42 @@ public class GrammarGeneration {
     private boolean J3(Node a, Node b){
 //        System.out.println("J3 : begin \n"+a+"\n"+b);
         ArrayList<Node> voc = getVocabulary();
+//        System.err.println(voc);
         double K = voc.size();
         K *= K;
+//        System.out.println("K : "+K);
         double sum = 0;
         for(Node u : voc){
             for(Node v : voc){
+//                System.out.println("-> "+u+" "+v);
                 double Ju = J(u,a)+J(u,b);
                 double Jv = J(a,v)+J(b,v);
-                sum += Ju*Ju + Jv*Jv / K;
+                sum += (Ju*Ju + Jv*Jv) / K;
+//                System.out.print(" += "+sum);
+//                System.out.println(Ju+" += "+Jv);
             }
         }
-//        System.out.println("J3 : end");
+
+        if(sum!=Double.POSITIVE_INFINITY) System.err.println(sum);
+//        System.out.println("J3 : end : "+sum);
         return sum <= threshold;
     }
 
     private Node[] maxJ2(){
-        List<Node> symbolList = getNotes();
+        List<Node> symbolList = getVocabulary();
         Node aMax = null, bMax = null;
-        double maxCount = 0;
+        double maxCount = -10000;
         for (Node a : symbolList){
                 for (Node b : symbolList) {
                     double count = J2(a, b);
-                    if (count > maxCount) {
+                    if (count >= maxCount) {
                         maxCount = count;
                         aMax = a;
                         bMax = b;
                     }
                 }
         }
+//        System.err.println("Maaaax "+maxCount);
         return new Node[]{aMax, bMax};
     }
 
@@ -105,7 +116,7 @@ public class GrammarGeneration {
         for(Node n : corpus){
             if(n instanceof Note) ++count;
         }
-        return count>1;
+        return count>=1;
     }
 
     private void replaceSymbol(Node a, Node b, Node X){
@@ -133,8 +144,9 @@ public class GrammarGeneration {
     }
 
     public void findGrammar(){
+        System.out.println("Taille : "+length);
         int count = 0;
-        while (containsNote() && length>2*count++){
+        while (containsNote() /*&& length>2*count++*/){
             Node[] ab = maxJ2();
             Node a = ab[0];
             Node b = ab[1];
@@ -142,8 +154,8 @@ public class GrammarGeneration {
             System.out.println(Xab.getSymbol()+" -> "+a.getSymbol()+" "+b.getSymbol());
             replaceSymbol(a,b,Xab);
             joinSymbols(Xab);
-            //System.out.println(corpus);
-            corpus.forEach(System.out::print);
         }
+        System.out.println("******************* RES");
+        corpus.forEach(System.out::print);
     }
 }

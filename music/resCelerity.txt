@@ -1,0 +1,1461 @@
+Root Element :score-partwise
+print
+attributes
+direction
+harmony
+start 1
+note
+Duration : 120
+note
+Duration : 120
+note
+Duration : 60
+note
+Duration : 60
+note
+Duration : 60
+note
+Duration : 60
+harmony
+start 1
+note
+Duration : 60
+note
+Duration : 60
+note
+Duration : 60
+note
+Duration : 60
+harmony
+start 1
+note
+Duration : 60
+note
+Duration : 60
+note
+Duration : 60
+note
+Duration : 60
+harmony
+start 1
+note
+Duration : 60
+note
+Duration : 60
+note
+Duration : 60
+note
+Duration : 60
+harmony
+start 1
+note
+Duration : 180
+note
+Duration : 30
+note
+Duration : 30
+harmony
+start 1
+note
+Duration : 60
+note
+Duration : 60
+note
+Duration : 60
+note
+Duration : 60
+harmony
+start 1
+note
+Duration : 60
+note
+Duration : 60
+note
+Duration : 60
+note
+Duration : 60
+print
+harmony
+start 1
+note
+Duration : 60
+note
+Duration : 60
+note
+Duration : 40
+note
+Duration : 40
+note
+Duration : 40
+harmony
+start 1
+note
+Duration : 60
+note
+Duration : 60
+note
+Duration : 60
+note
+Duration : 60
+harmony
+start 1
+note
+Duration : 60
+note
+Duration : 60
+note
+Duration : 60
+note
+Duration : 60
+note
+Duration : 60
+note
+Duration : 60
+note
+Duration : 60
+note
+Duration : 60
+harmony
+start 1
+note
+Duration : 60
+note
+Duration : 60
+note
+Duration : 60
+note
+Duration : 60
+note
+Duration : 240
+harmony
+start 1
+note
+Duration : 240
+harmony
+start 1
+note
+Duration : 240
+harmony
+start 1
+note
+Duration : 60
+note
+Duration : 60
+note
+Duration : 40
+note
+Duration : 40
+note
+Duration : 40
+note
+Duration : 120
+note
+Duration : 120
+print
+harmony
+start 1
+note
+Duration : 120
+note
+Duration : 60
+note
+Duration : 60
+harmony
+start 1
+note
+Duration : 60
+note
+Duration : 60
+note
+Duration : 60
+note
+Duration : 60
+harmony
+start 1
+note
+Duration : 60
+note
+Duration : 60
+note
+Duration : 40
+note
+Duration : 40
+note
+Duration : 40
+harmony
+start 1
+note
+Duration : 40
+note
+Duration : 40
+note
+Duration : 40
+note
+Duration : 40
+note
+Duration : 40
+note
+Duration : 40
+harmony
+start 1
+note
+Duration : 40
+note
+Duration : 40
+note
+Duration : 40
+note
+Duration : 60
+note
+Duration : 60
+harmony
+start 1
+note
+Duration : 60
+note
+Duration : 60
+note
+Duration : 60
+note
+Duration : 60
+harmony
+start 1
+note
+Duration : 60
+note
+Duration : 60
+note
+Duration : 60
+note
+Duration : 60
+harmony
+start 1
+note
+Duration : 60
+note
+Duration : 60
+note
+Duration : 60
+note
+Duration : 60
+print
+harmony
+start 1
+note
+Duration : 60
+note
+Duration : 60
+note
+Duration : 60
+note
+Duration : 60
+harmony
+start 1
+note
+Duration : 180
+note
+Duration : 60
+harmony
+start 1
+note
+Duration : 180
+note
+Duration : 30
+note
+Duration : 30
+note
+Duration : 60
+note
+Duration : 30
+note
+Duration : 30
+note
+Duration : 30
+note
+Duration : 30
+note
+Duration : 60
+harmony
+start 1
+note
+Duration : 240
+note
+Duration : 120
+note
+Duration : 60
+note
+Duration : 60
+harmony
+start 1
+note
+Duration : 40
+note
+Duration : 40
+note
+Duration : 40
+note
+Duration : 240
+note
+Duration : 60
+note
+Duration : 60
+harmony
+start 1
+note
+Duration : 60
+note
+Duration : 60
+note
+Duration : 60
+note
+Duration : 60
+note
+Duration : 120
+note
+Duration : 120
+print
+harmony
+start 1
+note
+Duration : 60
+note
+Duration : 60
+note
+Duration : 40
+note
+Duration : 40
+note
+Duration : 40
+note
+Duration : 60
+note
+Duration : 60
+note
+Duration : 60
+note
+Duration : 60
+harmony
+start 1
+note
+Duration : 60
+note
+Duration : 60
+note
+Duration : 60
+note
+Duration : 60
+note
+Duration : 60
+note
+Duration : 60
+note
+Duration : 40
+note
+Duration : 40
+note
+Duration : 40
+harmony
+start 1
+note
+Duration : 40
+note
+Duration : 40
+note
+Duration : 40
+note
+Duration : 60
+note
+Duration : 60
+note
+Duration : 30
+note
+Duration : 30
+note
+Duration : 30
+note
+Duration : 30
+note
+Duration : 30
+note
+Duration : 30
+note
+Duration : 30
+note
+Duration : 30
+print
+harmony
+start 1
+note
+Duration : 30
+note
+Duration : 30
+note
+Duration : 30
+note
+Duration : 30
+note
+Duration : 30
+note
+Duration : 30
+note
+Duration : 30
+note
+Duration : 30
+note
+Duration : 30
+note
+Duration : 30
+note
+Duration : 30
+note
+Duration : 15
+note
+Duration : 15
+note
+Duration : 120
+harmony
+start 1
+note
+Duration : 120
+note
+Duration : 60
+note
+Duration : 30
+note
+Duration : 30
+note
+Duration : 60
+note
+Duration : 60
+note
+Duration : 60
+note
+Duration : 60
+harmony
+start 1
+note
+Duration : 60
+note
+Duration : 60
+note
+Duration : 60
+note
+Duration : 60
+note
+Duration : 60
+note
+Duration : 60
+note
+Duration : 40
+note
+Duration : 40
+note
+Duration : 40
+harmony
+start 1
+note
+Duration : 60
+note
+Duration : 60
+note
+Duration : 40
+note
+Duration : 40
+note
+Duration : 40
+note
+Duration : 60
+note
+Duration : 60
+note
+Duration : 60
+note
+Duration : 60
+print
+harmony
+start 1
+note
+Duration : 60
+note
+Duration : 60
+note
+Duration : 120
+harmony
+start 1
+note
+Duration : 120
+note
+Duration : 60
+note
+Duration : 30
+note
+Duration : 30
+harmony
+start 1
+note
+Duration : 60
+note
+Duration : 60
+note
+Duration : 60
+note
+Duration : 60
+harmony
+start 1
+note
+Duration : 60
+note
+Duration : 60
+note
+Duration : 60
+note
+Duration : 60
+harmony
+start 1
+note
+Duration : 60
+note
+Duration : 60
+note
+Duration : 60
+note
+Duration : 60
+harmony
+start 1
+note
+Duration : 60
+note
+Duration : 60
+note
+Duration : 30
+note
+Duration : 30
+note
+Duration : 30
+note
+Duration : 30
+harmony
+start 1
+note
+Duration : 60
+note
+Duration : 60
+note
+Duration : 40
+note
+Duration : 40
+note
+Duration : 40
+harmony
+start 1
+note
+Duration : 60
+note
+Duration : 60
+note
+Duration : 60
+note
+Duration : 60
+print
+harmony
+start 1
+note
+Duration : 60
+note
+Duration : 60
+note
+Duration : 60
+note
+Duration : 60
+harmony
+start 1
+note
+Duration : 120
+note
+Duration : 60
+note
+Duration : 60
+harmony
+start 1
+note
+Duration : 60
+note
+Duration : 60
+note
+Duration : 60
+note
+Duration : 60
+note
+Duration : 60
+note
+Duration : 60
+note
+Duration : 120
+harmony
+start 1
+note
+Duration : 120
+note
+Duration : 60
+note
+Duration : 60
+harmony
+start 1
+note
+Duration : 60
+note
+Duration : 60
+note
+Duration : 60
+note
+Duration : 60
+harmony
+start 1
+note
+Duration : 60
+note
+Duration : 60
+note
+Duration : 60
+note
+Duration : 60
+note
+Duration : 60
+note
+Duration : 60
+note
+Duration : 60
+note
+Duration : 60
+harmony
+start 1
+note
+Duration : 60
+note
+Duration : 60
+note
+Duration : 60
+note
+Duration : 60
+harmony
+start 1
+note
+Duration : 60
+note
+Duration : 60
+note
+Duration : 60
+note
+Duration : 60
+print
+harmony
+start 1
+note
+Duration : 60
+note
+Duration : 60
+note
+Duration : 60
+note
+Duration : 60
+harmony
+start 1
+note
+Duration : 60
+note
+Duration : 60
+note
+Duration : 60
+note
+Duration : 60
+harmony
+start 1
+note
+Duration : 60
+note
+Duration : 30
+note
+Duration : 30
+note
+Duration : 60
+note
+Duration : 60
+harmony
+start 1
+note
+Duration : 60
+note
+Duration : 60
+note
+Duration : 60
+note
+Duration : 60
+harmony
+start 1
+note
+Duration : 60
+note
+Duration : 60
+note
+Duration : 40
+note
+Duration : 40
+note
+Duration : 40
+harmony
+start 1
+note
+Duration : 60
+note
+Duration : 60
+note
+Duration : 60
+note
+Duration : 60
+harmony
+start 1
+note
+Duration : 120
+note
+Duration : 60
+note
+Duration : 60
+harmony
+start 1
+note
+Duration : 60
+note
+Duration : 60
+note
+Duration : 120
+print
+harmony
+start 1
+note
+Duration : 60
+note
+Duration : 60
+note
+Duration : 60
+note
+Duration : 30
+note
+Duration : 30
+harmony
+start 1
+note
+Duration : 120
+note
+Duration : 60
+note
+Duration : 60
+harmony
+start 1
+note
+Duration : 60
+note
+Duration : 30
+note
+Duration : 30
+note
+Duration : 60
+note
+Duration : 60
+harmony
+start 1
+note
+Duration : 40
+note
+Duration : 40
+note
+Duration : 40
+note
+Duration : 120
+harmony
+start 1
+note
+Duration : 60
+note
+Duration : 60
+note
+Duration : 40
+note
+Duration : 40
+note
+Duration : 40
+note
+Duration : 60
+note
+Duration : 60
+note
+Duration : 40
+note
+Duration : 40
+note
+Duration : 40
+harmony
+start 1
+note
+Duration : 60
+note
+Duration : 60
+note
+Duration : 60
+note
+Duration : 60
+harmony
+start 1
+note
+Duration : 60
+note
+Duration : 60
+note
+Duration : 60
+note
+Duration : 60
+print
+harmony
+start 1
+note
+Duration : 120
+note
+Duration : 60
+note
+Duration : 60
+harmony
+start 1
+note
+Duration : 60
+note
+Duration : 60
+note
+Duration : 60
+note
+Duration : 60
+harmony
+start 1
+note
+Duration : 60
+note
+Duration : 60
+note
+Duration : 60
+note
+Duration : 60
+harmony
+start 1
+note
+Duration : 60
+note
+Duration : 60
+note
+Duration : 60
+note
+Duration : 60
+harmony
+start 1
+note
+Duration : 60
+note
+Duration : 60
+note
+Duration : 40
+note
+Duration : 40
+note
+Duration : 40
+harmony
+start 1
+note
+Duration : 60
+note
+Duration : 60
+note
+Duration : 60
+note
+Duration : 60
+harmony
+start 1
+note
+Duration : 60
+note
+Duration : 60
+note
+Duration : 60
+note
+Duration : 60
+harmony
+start 1
+note
+Duration : 120
+note
+Duration : 60
+note
+Duration : 30
+note
+Duration : 30
+print
+harmony
+start 1
+note
+Duration : 60
+note
+Duration : 60
+note
+Duration : 60
+note
+Duration : 60
+note
+Duration : 60
+note
+Duration : 60
+note
+Duration : 120
+harmony
+start 1
+note
+Duration : 480
+harmony
+start 1
+note
+Duration : 60
+note
+Duration : 60
+note
+Duration : 40
+note
+Duration : 40
+note
+Duration : 40
+note
+Duration : 60
+note
+Duration : 60
+note
+Duration : 60
+note
+Duration : 60
+harmony
+start 1
+note
+Duration : 60
+note
+Duration : 60
+note
+Duration : 40
+note
+Duration : 40
+note
+Duration : 40
+note
+Duration : 180
+note
+Duration : 60
+harmony
+start 1
+note
+Duration : 120
+note
+Duration : 120
+note
+Duration : 60
+note
+Duration : 60
+note
+Duration : 60
+note
+Duration : 60
+print
+harmony
+start 1
+note
+Duration : 60
+note
+Duration : 60
+note
+Duration : 60
+note
+Duration : 60
+note
+Duration : 60
+note
+Duration : 60
+note
+Duration : 60
+note
+Duration : 60
+harmony
+start 1
+note
+Duration : 60
+note
+Duration : 30
+note
+Duration : 30
+note
+Duration : 60
+note
+Duration : 60
+note
+Duration : 60
+note
+Duration : 60
+note
+Duration : 60
+note
+Duration : 60
+harmony
+start 1
+note
+Duration : 30
+note
+Duration : 30
+note
+Duration : 30
+note
+Duration : 30
+note
+Duration : 60
+note
+Duration : 60
+note
+Duration : 60
+note
+Duration : 60
+note
+Duration : 60
+note
+Duration : 60
+harmony
+start 1
+note
+Duration : 60
+note
+Duration : 60
+note
+Duration : 24
+note
+Duration : 24
+note
+Duration : 24
+note
+Duration : 24
+note
+Duration : 24
+note
+Duration : 60
+note
+Duration : 60
+note
+Duration : 120
+print
+harmony
+start 1
+note
+Duration : 480
+harmony
+start 1
+note
+Duration : 60
+note
+Duration : 60
+note
+Duration : 40
+note
+Duration : 40
+note
+Duration : 40
+note
+Duration : 180
+note
+Duration : 60
+harmony
+start 1
+note
+Duration : 20
+note
+Duration : 20
+note
+Duration : 20
+note
+Duration : 60
+note
+Duration : 120
+harmony
+start 1
+note
+Duration : 120
+note
+Duration : 60
+note
+Duration : 60
+harmony
+start 1
+note
+Duration : 40
+note
+Duration : 40
+note
+Duration : 40
+note
+Duration : 60
+note
+Duration : 60
+harmony
+start 1
+note
+Duration : 60
+note
+Duration : 60
+note
+Duration : 60
+note
+Duration : 60
+harmony
+start 1
+note
+Duration : 60
+note
+Duration : 60
+note
+Duration : 60
+note
+Duration : 60
+harmony
+start 1
+note
+Duration : 120
+note
+Duration : 120
+print
+harmony
+start 1
+note
+Duration : 60
+note
+Duration : 60
+note
+Duration : 40
+note
+Duration : 40
+note
+Duration : 40
+harmony
+start 1
+note
+Duration : 180
+note
+Duration : 60
+harmony
+start 1
+note
+Duration : 20
+note
+Duration : 20
+note
+Duration : 20
+note
+Duration : 60
+note
+Duration : 120
+harmony
+start 1
+note
+Duration : 120
+note
+Duration : 60
+note
+Duration : 30
+note
+Duration : 30
+harmony
+start 1
+note
+Duration : 60
+note
+Duration : 60
+note
+Duration : 60
+note
+Duration : 60
+note
+Duration : 60
+note
+Duration : 60
+note
+Duration : 60
+note
+Duration : 60
+harmony
+start 1
+note
+Duration : 60
+note
+Duration : 60
+note
+Duration : 60
+note
+Duration : 60
+note
+Duration : 120
+note
+Duration : 120
+barline
+1
+Taille : 97
+A -> 3 6
+B -> A 6
+C -> 2 5
+D -> C 5
+E -> C A
+F -> 2 5
+G -> F 5
+H -> B 2
+I -> F A
+J -> H 2
+K -> 2 5
+L -> K 5
+M -> 2 5
+N -> 6 2
+O -> M 5
+P -> N 5
+Q -> 2 5
+R -> 6 2
+S -> R 2
+T -> Q 5
+U -> 2 5
+V -> U 5
+W -> S U
+X -> 6 T
+Y -> 6 L
+Z -> 3 6
+[ -> M Z
+\ -> 3 Z
+] -> 3 V
+^ -> 3 ]
+_ -> 1 4
+` -> _ 4
+a -> D _
+b -> G `
+c -> 1 4
+d -> c 4
+e -> 1 4
+f -> e 4
+g -> 1 4
+h -> g 4
+i -> 1 4
+j -> i 4
+k -> O f
+l -> X h
+m -> J K
+n -> Y d
+o -> U ^
+p -> \ W
+q -> 1 M
+r -> 1 Q
+s -> P r
+t -> 1 K
+u -> 1 F
+v -> 1 3
+w -> a u
+x -> 1 v
+y -> [ k
+z -> m t
+AA -> n q
+AB -> I b
+AC -> o j
+AD -> 1 E
+AE -> w 1
+AF -> z 1
+AG -> AA 1
+AH -> y 1
+AI -> s 1
+AJ -> l 1
+AK -> AJ 1
+AL -> p 1
+AM -> AC 1
+AN -> AM 1
+******************* RES
+│           ┌── 6
+│       ┌── A
+│       │   └── 3
+│   ┌── E
+│   │   │   ┌── 5
+│   │   └── C
+│   │       └── 2
+└── AD
+    └── 1
+│   ┌── 1
+└── AE
+    │           ┌── 5
+    │       ┌── F
+    │       │   └── 2
+    │   ┌── u
+    │   │   └── 1
+    └── w
+        │       ┌── 4
+        │   ┌── _
+        │   │   └── 1
+        └── a
+            │   ┌── 5
+            └── D
+                │   ┌── 5
+                └── C
+                    └── 2
+│           ┌── 4
+│       ┌── `
+│       │   │   ┌── 4
+│       │   └── _
+│       │       └── 1
+│   ┌── b
+│   │   │   ┌── 5
+│   │   └── G
+│   │       │   ┌── 5
+│   │       └── F
+│   │           └── 2
+└── AB
+    │       ┌── 6
+    │   ┌── A
+    │   │   └── 3
+    └── I
+        │   ┌── 5
+        └── F
+            └── 2
+│       ┌── 3
+│   ┌── v
+│   │   └── 1
+└── x
+    └── 1
+│   ┌── 1
+└── AF
+    │           ┌── 5
+    │       ┌── K
+    │       │   └── 2
+    │   ┌── t
+    │   │   └── 1
+    └── z
+        │       ┌── 5
+        │   ┌── K
+        │   │   └── 2
+        └── m
+            │   ┌── 2
+            └── J
+                │   ┌── 2
+                └── H
+                    │   ┌── 6
+                    └── B
+                        │   ┌── 6
+                        └── A
+                            └── 3
+│   ┌── 1
+└── AG
+    │           ┌── 5
+    │       ┌── M
+    │       │   └── 2
+    │   ┌── q
+    │   │   └── 1
+    └── AA
+        │       ┌── 4
+        │   ┌── d
+        │   │   │   ┌── 4
+        │   │   └── c
+        │   │       └── 1
+        └── n
+            │       ┌── 5
+            │   ┌── L
+            │   │   │   ┌── 5
+            │   │   └── K
+            │   │       └── 2
+            └── Y
+                └── 6
+│   ┌── 1
+└── AH
+    │           ┌── 4
+    │       ┌── f
+    │       │   │   ┌── 4
+    │       │   └── e
+    │       │       └── 1
+    │   ┌── k
+    │   │   │   ┌── 5
+    │   │   └── O
+    │   │       │   ┌── 5
+    │   │       └── M
+    │   │           └── 2
+    └── y
+        │       ┌── 6
+        │   ┌── Z
+        │   │   └── 3
+        └── [
+            │   ┌── 5
+            └── M
+                └── 2
+│   ┌── 1
+└── AI
+    │           ┌── 5
+    │       ┌── Q
+    │       │   └── 2
+    │   ┌── r
+    │   │   └── 1
+    └── s
+        │   ┌── 5
+        └── P
+            │   ┌── 2
+            └── N
+                └── 6
+│   ┌── 1
+└── AK
+    │   ┌── 1
+    └── AJ
+        │       ┌── 4
+        │   ┌── h
+        │   │   │   ┌── 4
+        │   │   └── g
+        │   │       └── 1
+        └── l
+            │       ┌── 5
+            │   ┌── T
+            │   │   │   ┌── 5
+            │   │   └── Q
+            │   │       └── 2
+            └── X
+                └── 6
+│   ┌── 1
+└── AL
+    │           ┌── 5
+    │       ┌── U
+    │       │   └── 2
+    │   ┌── W
+    │   │   │   ┌── 2
+    │   │   └── S
+    │   │       │   ┌── 2
+    │   │       └── R
+    │   │           └── 6
+    └── p
+        │       ┌── 6
+        │   ┌── Z
+        │   │   └── 3
+        └── \
+            └── 3
+│   ┌── 1
+└── AN
+    │   ┌── 1
+    └── AM
+        │       ┌── 4
+        │   ┌── j
+        │   │   │   ┌── 4
+        │   │   └── i
+        │   │       └── 1
+        └── AC
+            │               ┌── 5
+            │           ┌── V
+            │           │   │   ┌── 5
+            │           │   └── U
+            │           │       └── 2
+            │       ┌── ]
+            │       │   └── 3
+            │   ┌── ^
+            │   │   └── 3
+            └── o
+                │   ┌── 5
+                └── U
+                    └── 2

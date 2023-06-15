@@ -22,7 +22,7 @@ public class FileExtractor {
     private FileExtractor() {}
 
     private static File[] getResourceFolderFiles() {
-        URL url = Main.class.getClassLoader().getResource("Omnibook_xml");
+        URL url = Main.class.getClassLoader().getResource("Omnibook_xml_test");
         String path = url.getPath();
         return new File(path).listFiles();
     }
@@ -37,28 +37,54 @@ public class FileExtractor {
                 DocumentBuilder db = dbf.newDocumentBuilder();
                 Document document = db.parse(file);
                 document.getDocumentElement().normalize();
-                System.out.println("Root Element :" + document.getDocumentElement().getNodeName());
-                NodeList nList = document.getElementsByTagName("note");
-                int startNote = 'A';
+//                System.out.println("Root Element :" + document.getDocumentElement().getNodeName());
+                NodeList nList = document.getElementsByTagName("measure");
+                int startLetter = 'A';
+                int startNote = -1;
 
                 Music music = new Music(file.getName());
-                for (int temp = 0; temp < nList.getLength(); temp++) {
-                    Node nNode = nList.item(temp);
+                for (int i = 0; i < nList.getLength(); i++) {
+                    Node nNode = nList.item(i);
                     if (nNode.getNodeType() == Node.ELEMENT_NODE) {
                         Element eElement = (Element) nNode;
-                        if (eElement.getElementsByTagName("pitch").item(0) != null) {
-                            System.out.println("\nNote : " + eElement.getElementsByTagName("pitch").item(0).getChildNodes().item(1).getTextContent());
-                            System.out.println("Duration : " + eElement.getElementsByTagName("duration").item(0).getTextContent());
+                        NodeList measureList = eElement.getChildNodes();
+                        for (int j = 0; j < measureList.getLength(); j++) {
+                            Node n = measureList.item(j);
+                            if (n.getNodeType() == Node.ELEMENT_NODE) {
+                                Element e = (Element) n;
+//                                System.out.println(e.getNodeName());
+                                if(e.getNodeName().equals("harmony")){
+                                    int degree = e.getElementsByTagName("root-step").item(0).getTextContent().charAt(0);
+                                    if(startNote==-1) startNote = degree - startLetter;
+//                                    System.out.println("start "+startNote);
+                                    degree = Math.floorMod((degree - startLetter - startNote), 7) + 1;
 
-                            int duration = Integer.parseInt(eElement.getElementsByTagName("duration").item(0).getTextContent());
-                            int degree = eElement.getElementsByTagName("pitch").item(0).getChildNodes().item(1).getTextContent().charAt(0);
-                            degree = Math.floorMod((degree - startNote - 2), 7) + 1;
-                            Note n = new Note(degree, duration);
-                            System.out.println(n.toString());
-                            music.addNote(n);
+                                    Note note = new Note(degree, 0);
+                                    music.addNote(note);
+                                } else if (e.getNodeName().equals("note")) {
+//                                    System.out.println("Duration : " + e.getElementsByTagName("duration").item(0).getTextContent());
+                                    int duration = Integer.parseInt(e.getElementsByTagName("duration").item(0).getTextContent());
+                                    music.addDurationToLastNote(duration);
+                                }
+                            }
                         }
+
+//                        if (eElement.getElementsByTagName("pitch").item(0) != null) {
+//                            System.out.println("\nNote : " + eElement.getElementsByTagName("pitch").item(0).getChildNodes().item(1).getTextContent());
+//                            System.out.println("Duration : " + eElement.getElementsByTagName("duration").item(0).getTextContent());
+//
+//                            int duration = Integer.parseInt(eElement.getElementsByTagName("duration").item(0).getTextContent());
+//                            int degree = eElement.getElementsByTagName("pitch").item(0).getChildNodes().item(1).getTextContent().charAt(0);
+//                            if(startNote==-1) startNote = degree - startLetter;
+//                            System.out.println("start "+startNote);
+//                            degree = Math.floorMod((degree - startLetter - startNote), 7) + 1;
+//                            Note n = new Note(degree, duration);
+//                            System.out.println(n.toString());
+//                            music.addNote(n);
+//                        }
                     }
                 }
+                System.out.println(music);
                 musics.add(music);
             }
         } catch (IOException e) {

@@ -31,15 +31,22 @@ public abstract class Node {
     }
 
     private static String numToLetter(int i) {
-        if (i >= 0 && i <= 25) {
-            return String.valueOf((char) ('A' + i));
-        } else {
-            return "?";
-        }
+        String begin = (i >= 0 && i < 26)?"":String.valueOf((char) ('A' + i/26-1));
+        return begin+(char) ('A' + i%26);
+//        if (i >= 0 && i < 58) {
+//            return String.valueOf((char) ('A' + i));
+//        } else {
+//            return String.valueOf((char) ('A' + i/58-1))+(char) ('A' + i%58);
+//        }
+
     }
 
     public int getDuration() {
         return duration;
+    }
+
+    public void addTime(int time){
+        duration+=time;
     }
 
     public String getSymbol() {
@@ -48,12 +55,12 @@ public abstract class Node {
 
     ////////
     public StringBuilder toString(StringBuilder prefix, boolean isTail, StringBuilder sb) {
-        if(rightChild!=null) {
-            rightChild.toString(new StringBuilder().append(prefix).append(isTail ? "│   " : "    "), false, sb);
+        if(leftChild!=null) {
+            leftChild.toString(new StringBuilder().append(prefix).append(isTail ? "│   " : "    "), false, sb);
         }
         sb.append(prefix).append(isTail ? "└── " : "┌── ").append(symbol).append("\n");
-        if(leftChild!=null) {
-            leftChild.toString(new StringBuilder().append(prefix).append(isTail ? "    " : "│   "), true, sb);
+        if(rightChild!=null) {
+            rightChild.toString(new StringBuilder().append(prefix).append(isTail ? "    " : "│   "), true, sb);
         }
         return sb;
     }
