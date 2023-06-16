@@ -112,21 +112,18 @@ public class GrammarGeneration {
     }
 
     private boolean containsNote(){
-        int count = 0;
         for(Node n : corpus){
-            if(n instanceof Note) ++count;
+            if(n instanceof Note) return true;
         }
-        return count>=1;
+        return false;
     }
 
     private void replaceSymbol(Node a, Node b, Node X){
-        Iterator<Node> itr = corpus.iterator();
-        while (itr.hasNext()) {
-            Node n = itr.next();
-            int i = corpus.indexOf(n);
+        for(int i = 1; i< corpus.size(); ++i){
+            Node n = corpus.get(i);
             if(i!= 0 && n.equals(b) && corpus.get(i-1).equals(a)){
                 corpus.set(i-1,X);
-                itr.remove();
+                corpus.remove(i--);
             }
         }
     }
@@ -144,7 +141,7 @@ public class GrammarGeneration {
     }
 
     public void findGrammar(){
-        System.out.println("Taille : "+length);
+        System.out.println("Nombre de notes : "+length);
         int count = 0;
         while (containsNote() /*&& length>2*count++*/){
             Node[] ab = maxJ2();
@@ -153,9 +150,10 @@ public class GrammarGeneration {
             Node Xab = new Symbol(a,b);
             System.out.println(Xab.getSymbol()+" -> "+a.getSymbol()+" "+b.getSymbol());
             replaceSymbol(a,b,Xab);
+//            System.out.println(corpus);
             joinSymbols(Xab);
         }
-        System.out.println("******************* RES");
+        System.out.println("******************* TREE *******************");
         corpus.forEach(System.out::print);
     }
 }

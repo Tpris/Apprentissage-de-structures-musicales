@@ -14,15 +14,13 @@ import java.io.File;
 import java.io.IOException;
 import java.net.URISyntaxException;
 import java.net.URL;
-import java.nio.file.Paths;
 import java.util.ArrayList;
-import java.util.List;
 
 public class FileExtractor {
     private FileExtractor() {}
 
     private static File[] getResourceFolderFiles() {
-        URL url = Main.class.getClassLoader().getResource("Omnibook_xml_test");
+        URL url = Main.class.getClassLoader().getResource("Omnibook_xml_10");
         String path = url.getPath();
         return new File(path).listFiles();
     }
@@ -43,7 +41,8 @@ public class FileExtractor {
                 int startNote = -1;
 
                 Music music = new Music(file.getName());
-                for (int i = 0; i < nList.getLength(); i++) {
+                int limite = (nList.getLength()<32)?nList.getLength():32;
+                for (int i = 0; i < limite; i++) {
                     Node nNode = nList.item(i);
                     if (nNode.getNodeType() == Node.ELEMENT_NODE) {
                         Element eElement = (Element) nNode;
